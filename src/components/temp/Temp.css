@@ -1,0 +1,29 @@
+/* src/components/ReadingCard.css */
+.temp-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #7bd47e;
+    opacity: 0.55;
+    padding: 16px;
+    margin: 16px;
+    display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+    text-align: center;
+    width: 10rem;
+    transition: transform 0.2s;
+  }
+.temp-card-red {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: red;
+    opacity: 0.55;
+    padding: 16px;
+    margin: 16px;
+    display: inline-flex;
+}
+  
+  .reading-card:hover {
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,19 @@
+/* src/components/ReadingCard.css */
+.reading-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #F1272B;
+    opacity: 0.55;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-flex;
+  justify-content: space-between;
+    text-align: center;
+    width: 22rem;
+    transition: transform 0.2s;
+  }
+  
+  .reading-card:hover {
+    transform: scale(1.05);
+  }
+  

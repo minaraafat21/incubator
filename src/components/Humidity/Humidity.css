@@ -1,0 +1,19 @@
+/* src/components/ReadingCard.css */
+.Humidity-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ccedf0;
+    opacity: 0.55;
+    padding: 1.5rem;
+    margin: 1rem;
+    display: inline-flex;
+  justify-content: space-between;
+    text-align: center;
+    width: 10rem;
+    transition: transform 0.2s;
+  }
+  
+  .reading-card:hover {
+    transform: scale(1.05);
+  }
+  
