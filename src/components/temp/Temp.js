@@ -3,7 +3,7 @@ import React from 'react';
 import './Temp.css';
 
 const Temp = ({ Temp }) => {
-  if (Temp > 37.5) {
+  if (Temp > 30) {
     return (
       <div className="temp-card-red">
         <div>
